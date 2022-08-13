@@ -1,0 +1,98 @@
+/* NAVBAR */
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-nav-right-1 {
+  margin-right: var(--size-30);
+}
+
+nav .bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: var(--size-18);
+  position: sticky;
+  z-index: 100;
+}
+
+.bottom-nav .front-logo {
+  width: var(--size-150);
+}
+
+.bottom-nav-right {
+  padding-top: var(--size-10);
+}
+
+.bottom-nav-right .bottom-right-option {
+  margin-right: var(--size-16);
+}
+
+.bottom-right-1 {
+  color: var(--font-color-link);
+}
+
+/* EMPOWERING TEAMS / LOGO ICONS */
+
+.empowering-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: var(--size-100);
+}
+
+.empowering {
+  min-width: 300px;
+  max-width: 530px;
+}
+
+.empowering h2 {
+  margin-top: 0;
+  font-size: var(--size-70);
+  margin-bottom: var(--size-20);
+  color: var(--font-color-dark);
+  font-weight: 600;
+}
+
+.empowering p {
+  margin-bottom: var(--size-30);
+}
+
+.empowering .btn-one {
+  padding: var(--size-10) var(--size-14);
+  border-radius: var(--size-30);
+  margin-right: var(--size-10);
+}
+
+.empowering .btn-two {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--font-color-link);
+}
+
+.empowering-logos {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 300px;
+  max-width: 530px;
+}
+
+.b-icons {
+  width: var(--size-70);
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.google-1 {
+  position: absolute;
+  right: 30px;
+}
