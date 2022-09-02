@@ -96,6 +96,14 @@ img {
   border-radius: 1.25rem;
 }
 
+.b-icons {
+  position: absolute;
+  width: var(--size-70);
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 @media (min-width: 768px) {
    {
     max-width: 720px;

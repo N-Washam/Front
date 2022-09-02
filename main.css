@@ -45,17 +45,20 @@ nav .bottom-nav {
 .empowering-container {
   display: flex;
   flex-direction: row;
-  margin-top: var(--size-100);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: var(--size-150);
 }
 
 .empowering {
   min-width: 300px;
   max-width: 530px;
+  margin-right: 130px;
 }
 
 .empowering h2 {
   margin-top: 0;
-  font-size: var(--size-70);
+  font-size: var(--size-50);
   margin-bottom: var(--size-20);
   color: var(--font-color-dark);
   font-weight: 600;
@@ -85,14 +88,43 @@ nav .bottom-nav {
   max-width: 530px;
 }
 
-.b-icons {
-  width: var(--size-70);
-  background-color: white;
-  padding: 10px;
-  border-radius: 50%;
+.icon-1,
+.icon-6 {
+  top: -3rem;
+  left: -9rem;
+  width: var(--size-60);
+  padding: 0.8rem;
 }
 
-.google-1 {
-  position: absolute;
-  right: 30px;
+.icon-2 {
+  top: -0.4rem;
+  left: 1rem;
+  padding: var(--size-20);
+}
+
+.icon-3 {
+  top: -1.9rem;
+  right: 0rem;
+}
+
+.icon-4 {
+  top: 8rem;
+  left: -9rem;
+  padding: var(--size-18);
+}
+
+.icon-5 {
+  top: 8rem;
+  left: 5.5rem;
+  padding: 17px;
+}
+
+.icon-6 {
+  left: -2rem;
+  top: 15rem;
+}
+.icon-7 {
+  right: 0rem;
+  top: 18rem;
+  padding: var(--size-16);
 }
