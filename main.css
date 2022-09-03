@@ -133,7 +133,7 @@ nav .bottom-nav {
 /* KEY BENEFITS */
 
 .key-benefits-container {
-  margin-top: 12rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
 }
 
@@ -160,6 +160,7 @@ nav .bottom-nav {
   display: flex;  
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .key-benefits-card {
@@ -177,8 +178,9 @@ nav .bottom-nav {
   max-width: 4rem;
 }
 
-.key-benefits-card > h2 {
+.key-benefits-card > h2, .premium-card > h2 {
   color: var(--black);
+  font-size: large;
   font-weight: 600;
 }
 
@@ -186,4 +188,15 @@ nav .bottom-nav {
   color: var(--font-color-link);
   font-weight: 600;
   margin-top: 1rem;
+}
+
+.premium-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.premium-card > span {
+  margin-top: 12px;
+  margin-left: 15px;
 }

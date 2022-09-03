@@ -5,6 +5,7 @@
   --font-color-dark: #222529;
   --font-color-light: #b0aebe;
   --font-color-link: #0e7cfa;
+  --font-color-sketch: #63c68f;
   --grad-1: #a1ecff;
   --grad-2: #7dbcff;
   /* PX to REM */
@@ -102,6 +103,20 @@ img {
   background-color: white;
   padding: 10px;
   border-radius: 50%;
+}
+
+.sketch-button {
+  display: inline-block;
+  font-weight: 400;
+  font-size: small;
+  color: var(--white);
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--font-color-sketch);
+  border: 1px solid var(--font-colr-sketch);
+  padding: 0.1rem 1.2rem;
+  border-radius: 1.25rem;
 }
 
 @media (min-width: 768px) {
