@@ -119,6 +119,19 @@ img {
   border-radius: 1.25rem;
 }
 
+.header-tittles {
+  color: var(--black);
+  font-size: var(--size-30);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header-para {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  font-size: var(--size-20);
+}
+
 @media (min-width: 768px) {
    {
     max-width: 720px;
