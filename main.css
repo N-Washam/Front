@@ -130,9 +130,11 @@ nav .bottom-nav {
   padding: var(--size-16);
 }
 
-/* KEY BENEFITS */
+/* KEY BENEFITS & PERSPECTIVES*/
 
 .key-benefits-container {
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 7rem;
   margin-bottom: 5rem;
 }
@@ -187,4 +189,15 @@ nav .bottom-nav {
 .premium-card > span {
   margin-top: 12px;
   margin-left: 15px;
+}
+
+.perspectives-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 67rem;
+  height: 24rem;
+  background: gray;
+  margin: 7rem 0px 5rem 20px;
+  display: flex;
+  flex-direction: row;
 }
