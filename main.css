@@ -3,6 +3,7 @@
 nav {
   display: flex;
   flex-direction: column;
+  margin-top: 0.5rem;
 }
 
 nav .top-nav {
@@ -62,7 +63,6 @@ nav .bottom-nav {
   font-size: var(--size-50);
   margin-bottom: var(--size-20);
   color: var(--font-color-dark);
-  font-weight: 600;
 }
 
 .empowering p {
@@ -161,7 +161,7 @@ nav .bottom-nav {
   max-height: 270px;
   border: 0.5px solid transparent;
   background-color: transparent;
-  box-shadow: 1px 11px 0px -1px #f0f0f0, 0px 12px 0px 16px #f7f7f7;
+  box-shadow: 1px 11px 0px -1px #f0f0f0, 0px 12px 0px 13px #f7f7f7;
   border-radius: 8px;
   padding: 1rem;
   font-size: var(--size-14);
@@ -179,12 +179,10 @@ nav .bottom-nav {
 .premium-card > h2 {
   color: var(--black);
   font-size: large;
-  font-weight: 600;
 }
 
 .key-benefits-card > a {
   color: var(--font-color-link);
-  font-weight: 600;
   margin-top: 1rem;
 }
 
@@ -199,14 +197,40 @@ nav .bottom-nav {
   margin-left: 15px;
 }
 
+/* PERSPECTIVES */
+
 .perspectives-container {
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 67rem;
-  height: 30rem;
-  background: #e6e8ef;
+  min-height: 33rem;
+  background: #eaeff5;
   margin: 7rem auto 5rem auto;
   padding: 0;
   border-radius: 8px;
+}
+
+.perspectives-para {
+  margin-left: 3.5rem;
+  margin-top: 9rem;
+}
+
+.perspectives-para > h2 {
+  color: var(--font-color-dark);
+  line-height: 1.35;
+  font-size: xx-large;
+}
+
+.perspectives-para > a {
+  padding: 0.7rem 1.6rem;
+  border-radius: 26px;
+  font-size: var(--size-16);
+}
+
+.banner-one-container > img {
+  margin-top: 7rem;
+  max-width: 37rem;
+  max-height: 26rem;
 }
