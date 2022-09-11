@@ -1,5 +1,10 @@
 /* NAVBAR */
 
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -130,7 +135,7 @@ nav .bottom-nav {
   padding: var(--size-16);
 }
 
-/* KEY BENEFITS & PERSPECTIVES*/
+/* KEY BENEFITS */
 
 .key-benefits-container {
   margin-right: auto;
@@ -139,10 +144,12 @@ nav .bottom-nav {
   margin-bottom: 5rem;
 }
 
-.key-benefits-opening {
+.key-benefits-opening,
+.why-front-opening {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .key-card-container {
@@ -205,7 +212,6 @@ nav .bottom-nav {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 67rem;
-  min-height: 33rem;
   background: #eaeff5;
   margin: 7rem auto 5rem auto;
   padding: 0;
@@ -233,4 +239,34 @@ nav .bottom-nav {
   margin-top: 7rem;
   max-width: 37rem;
   max-height: 26rem;
+}
+
+/* WHY-FRONT */
+
+.why-front-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dot-line-container {
+  display: flex;
+  flex: row;
+  justify-content: ;
+  margin-bottom: 5rem;
+}
+
+.dot {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 34px;
+  background: var(--font-color-link);
+  border: 22.1px solid #c0dbf9;
+}
+
+.line {
+  width: 8rem;
+  height: 1.5px;
+  background: #c0dbf9;
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
 }
