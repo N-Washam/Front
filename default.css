@@ -134,11 +134,10 @@ img {
   font-size: var(--size-18);
 }
 
-@media (min-width: 768px) {
-   {
+/* @media (min-width: 768px) {
     max-width: 720px;
   }
-}
+} */
 
 @media (min-width: 992px) {
   .why-front-container {
