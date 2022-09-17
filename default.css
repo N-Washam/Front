@@ -135,16 +135,16 @@ img {
 }
 
 @media (min-width: 768px) {
-  .why-front-container {
+   {
     max-width: 720px;
   }
 }
 
-/* @media (min-width: 992px) {
-   {
+@media (min-width: 992px) {
+  .why-front-container {
     max-width: 960px;
   }
-} */
+}
 
 @media (min-width: 1200px) {
   .nav-container,
