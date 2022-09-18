@@ -357,13 +357,13 @@ nav .bottom-nav {
   margin-bottom: 1.5rem;
 }
 
-.hubspot > p {
+.hubspot > p,
+.hubspot > h4 {
   font-size: var(--size-20);
   color: var(--black);
 }
 
 .hubspot > h4 {
-  color: var(--black);
   font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 0rem;
@@ -371,4 +371,30 @@ nav .bottom-nav {
 
 .hubspot > h6 {
   margin-top: 0rem;
+}
+
+/* TRUSTED BY THE BEST */
+
+.worlds-best-container,
+.company-names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.worlds-best-header {
+  font-size: var(--size-14);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.company-names {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.company-names > img {
+  max-width: 7rem;
 }
