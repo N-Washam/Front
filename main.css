@@ -380,6 +380,7 @@ nav .bottom-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .worlds-best-header {
@@ -397,4 +398,11 @@ nav .bottom-nav {
 
 .company-names > img {
   max-width: 7rem;
+}
+
+.best-line {
+  width: 100%;
+  height: 2px;
+  background-color: #eeedf5;
+  margin-bottom: 2rem;
 }
