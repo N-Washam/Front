@@ -140,7 +140,8 @@ img {
 } */
 
 @media (min-width: 992px) {
-  .why-front-container {
+  .why-front-container,
+  .pricing-container {
     max-width: 960px;
   }
 }
