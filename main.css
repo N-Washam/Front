@@ -380,6 +380,7 @@ nav .bottom-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .worlds-best-header {
@@ -391,10 +392,95 @@ nav .bottom-nav {
 
 .company-names {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 5rem;
 }
 
 .company-names > img {
   max-width: 7rem;
+}
+
+.best-line {
+  width: 100%;
+  height: 2px;
+  background-color: #eeedf5;
+  margin-bottom: 2rem;
+}
+
+/* PRICING */
+
+.pricing-container {
+  margin: 0 auto 5rem auto;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.pricing-header > h2 {
+  margin-bottom: 1.5rem;
+}
+
+.main-card {
+  width: 35%;
+  min-width: 300px;
+  height: max-content;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  box-shadow: 1px 11px 0px -1px #f0f0f0, 0px 12px 0px 13px #f7f7f7;
+  padding: 2rem;
+}
+
+.dollars,
+.month {
+  font-size: xxx-large;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.month {
+  font-size: var(--size-20);
+}
+
+.card-line {
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  background: var(--font-color-light);
+  margin: 1rem 0 1.5rem 0;
+}
+
+.main-card > a {
+  border-radius: 2rem;
+  padding: 0.6rem 1.5rem 0rem 1.5rem;
+  margin: 1.5rem 0rem 0.5rem 0;
+}
+
+.main-card :last-child {
+  font-size: smaller;
+  margin-bottom: 1rem;
+}
+
+.small-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 65%;
+  flex-wrap: wrap;
+}
+
+.small-card > img {
+  max-width: 3rem;
+}
+
+.small-card > h3 {
+  color: var(--black);
+  margin: 0.7rem 0 0.3rem;
 }

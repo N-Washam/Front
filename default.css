@@ -149,7 +149,8 @@ img {
   .nav-container,
   .empowering-container,
   .key-benefits-container,
-  .perspectives-container {
+  .perspectives-container,
+  .pricing-container {
     max-width: 1140px;
   }
 }
