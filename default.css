@@ -53,6 +53,10 @@ ul {
   list-style: none;
 }
 
+/* li {
+  display: ;
+} */
+
 a {
   text-decoration: none;
   color: var(--font-color-base);
@@ -134,6 +138,14 @@ img {
   font-size: var(--size-18);
 }
 
+.card-line {
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  background: var(--font-color-light);
+  margin: 1rem 0 1.5rem 0;
+}
+
 /* @media (min-width: 768px) {
     max-width: 720px;
   }
@@ -152,5 +164,11 @@ img {
   .perspectives-container,
   .pricing-container {
     max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hire-us-container {
+    max-width: 1360px;
   }
 }
