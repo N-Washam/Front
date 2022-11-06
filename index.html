@@ -37,7 +37,13 @@
           </ul>
         </div>
 
-        <div class="bottom-nav">
+        <div id="navigation" class="bottom-nav">
+
+          <!-- MOBILE-BTN -->
+          <button class="nav-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+            <span><i class="fa-solid fa-equals"></i></span>
+          </button>
+
           <a href="/index.html"
             ><img
               class="front-logo"
@@ -45,14 +51,17 @@
               alt="Front-logo"
           /></a>
           <ul class="bottom-nav-right">
-            <a class="bottom-right-option bottom-right-1" href="/index.html"
+
+            <li>
+              <a class="bottom-right-option bottom-right-1" href="/index.html"
               >Home</a
-            >
-            <a class="bottom-right-option" href="/about.html">Features</a>
-            <a class="bottom-right-option" href="/contact.html">Learn</a>
-            <a class="bottom-right-option" href="/contact.html">Pricing</a>
-            <a class="bottom-right-option" href="/contact.html">Hire Us</a>
-            <a class="btn" href="/contact.html">Buy Now</a>
+            ></li>
+            <li><a class="bottom-right-option" href="/about.html">Features</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Learn</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Pricing</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Hire Us</a></li>
+            <a class="btn nav-buy-now" href="/contact.html">Buy Now</a>
+
           </ul>
         </div>
       </nav>
@@ -544,7 +553,7 @@
         </div>
 
         <div class="copyright-closing">
-          <p>&#169 Front. 202 Htmlstream. All rights reserved.</p>
+          <p>&#169 Front. 2022 Htmlstream. All rights reserved.</p>
           <p>When you visit or interact with our sites, services or tools,
             we or our authorized service providers may use cookies for storing
             information to <br> help provide you with a better, faster and safer
@@ -560,5 +569,16 @@
       <i class="fa-solid fa-chevron-up"></i>
     </a>
 
+
+    <script>
+      const navButton = document.querySelector('button[aria-expanded]');
+
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+
+      navButton.addEventListener('click' , toggleNav);
+    </script>
   </body>
 </html>
