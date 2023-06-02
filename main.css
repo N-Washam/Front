@@ -48,6 +48,21 @@ nav {
   display: none;
 }
 
+.nav-toggler {
+  position: absolute;
+  right: var(--size-14);
+  top: var(--size-18);
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.nav-toggler span {
+  font-size: var(--size-20);
+  cursor: pointer;
+  pointer-events: none;
+}
+
 .bottom-nav .front-logo {
   width: var(--size-150);
 }
@@ -77,13 +92,13 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 8rem;
 }
 
 .empowering {
-  min-width: 18.75rem;
-  max-width: 33.125rem;
+  width: 40%;
   margin: 2.5rem 1rem 4rem 0;
 }
 
@@ -97,6 +112,7 @@ nav {
 .empowering p {
   font-size: var(--size-20);
   margin-bottom: var(--size-30);
+  margin-right: 3rem;
 }
 
 .empowering .btn-one {
@@ -190,7 +206,7 @@ nav {
   display: flex;
   flex-direction: column;
   max-width: 15.625rem;
-  max-height: 16.875rem;
+  max-height: 15.5rem;
   border: 0.03125rem solid transparent;
   background-color: transparent;
   box-shadow: 1px 11px 0px -1px #f0f0f0, 0px 12px 0px 13px #f7f7f7;
@@ -249,6 +265,7 @@ nav {
 }
 
 .perspectives-para {
+  width: 36%;
   margin-left: 3.5rem;
   margin-top: 9rem;
 }
@@ -276,6 +293,15 @@ nav {
 .why-front-container {
   margin-right: auto;
   margin-left: auto;
+}
+
+.why-front-opening {
+  flex-wrap: wrap;
+}
+
+.dots-and-tittles {
+  display: flex;
+  flex-direction: column;
 }
 
 .dot-line-container {
@@ -370,9 +396,9 @@ nav {
 }
 
 .kray-photo {
-  position: absolute;
+  position: relative;
   left: 13%;
-  top: -5%;
+  top: -54%;
   z-index: 16;
   width: 23rem;
   border-radius: 0.3125rem;
