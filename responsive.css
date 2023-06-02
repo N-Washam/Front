@@ -153,4 +153,27 @@
   .hubspot > p {
     font-size: 2rem;
   }
+
+  /* WORLD'S BEST */
+
+  .worlds-best-header {
+    font-size: var(--size-18);
+  }
+
+  .wbi-2,
+  .wbi-3 {
+    display: none;
+  }
+
+  /* PRICING */
+
+  .main-card {
+    width: 86%;
+    box-shadow: 1px 2px 0px -1px #f0f0f0, 0px 2px 0px 3px #f7f7f7;
+  }
+
+  .small-cards {
+    width: 85%;
+    margin-top: 2%;
+  }
 }
