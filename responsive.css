@@ -130,6 +130,27 @@
 
   .dot-overlay-img {
     width: 100%;
-    margin-left: 3rem;
+  }
+
+  .dot-img {
+    position: absolute;
+    width: 14rem;
+    margin-top: 17.5rem;
+    margin-left: 2rem;
+  }
+
+  .kray-photo {
+    position: relative;
+    top: -3%;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .hubspot-photo {
+    font-size: var(--size-20);
+  }
+
+  .hubspot > p {
+    font-size: 2rem;
   }
 }
