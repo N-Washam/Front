@@ -37,7 +37,13 @@
           </ul>
         </div>
 
-        <div class="bottom-nav">
+        <div id="navigation" class="bottom-nav">
+
+          <!-- MOBILE-BTN -->
+          <button class="nav-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+            <span><i class="fa-solid fa-equals"></i></span>
+          </button>
+
           <a href="/index.html"
             ><img
               class="front-logo"
@@ -45,14 +51,17 @@
               alt="Front-logo"
           /></a>
           <ul class="bottom-nav-right">
-            <a class="bottom-right-option bottom-right-1" href="/index.html"
+
+            <li>
+              <a class="bottom-right-option bottom-right-1" href="/index.html"
               >Home</a
-            >
-            <a class="bottom-right-option" href="/about.html">Features</a>
-            <a class="bottom-right-option" href="/contact.html">Learn</a>
-            <a class="bottom-right-option" href="/contact.html">Pricing</a>
-            <a class="bottom-right-option" href="/contact.html">Hire Us</a>
-            <a class="btn" href="/contact.html">Buy Now</a>
+            ></li>
+            <li><a class="bottom-right-option" href="/about.html">Features</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Learn</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Pricing</a></li>
+            <li><a class="bottom-right-option" href="/contact.html">Hire Us</a></li>
+            <a class="btn nav-buy-now" href="/contact.html">Buy Now</a>
+
           </ul>
         </div>
       </nav>
@@ -63,11 +72,11 @@
     <div class="empowering-container">
       <div class="empowering">
         <h2>
-          Empowering <br />
-          teams with <br />
+          Empowering 
+          teams with 
           freedom
         </h2>
-        <p>Own the unlimited power of web <br> development.</p>
+        <p>Own the unlimited power of web development.</p>
         <a href="#" class="btn btn-one">
           <i class="fa-solid fa-circle-play"></i> Play Video</a
         >
@@ -161,8 +170,8 @@
     <div class="perspectives-container">
       <div class="perspectives-para">
         <h2>
-          Front makes you look at <br />
-          things from a different <br />
+          Front makes you look at 
+          things from a different 
           perspective.
         </h2>
         <a class="btn" href="#"
@@ -186,28 +195,31 @@
         </p>
       </div>
 
-      <div class="dot-line-container">
-        <div class="dot"></div>
-        <div class="line"></div>
-        <div class="dot"></div>
-        <div class="line"></div>
-        <div class="dot"></div>
-        <div class="line"></div>
-        <div class="dot"></div>
+      <div class="dots-and-tittles">
+        <div class="dot-line-container">
+          <div class="dot"></div>
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+          <div class="dot"></div>
+          <div class="line"></div>
+          <div class="dot"></div>
+        </div>
+        <div class="dot-tittles">
+          <p class="d-1">Basic elements</p>
+          <p class="d-2">Components</p>
+          <p class="d-3">Combined components</p>
+          <p>Page layouts</p>
+        </div>
       </div>
-      <div class="dot-tittles">
-        <p class="d-1">Basic elements</p>
-        <p class="d-2">Components</p>
-        <p class="d-3">Combined components</p>
-        <p>Page layouts</p>
-      </div>
-
+      
       <div class="banner-two">
         <img src="/Assets/banners/banner_two.jpg" alt="banner-two" />
         <div class="play-button-container">
           <i class="fa-solid fa-play"></i>
         </div>
       </div>
+    </div>
 
       <!-- KRAY & HUBSPOT -->
 
@@ -219,6 +231,7 @@
             src="/Assets/people/woman_three.jpg"
             alt="kray"
           />
+          
         </div>
 
         <div class="hubspot-photo">
@@ -241,11 +254,11 @@
       <div class="worlds-best-container">
         <div class="worlds-best-header">TRUSTED BY THE WORLD'S BEST</div>
         <div class="company-names">
-          <img src="/Assets/company_logos/weebly.svg" alt="weebly" />
-          <img src="/Assets/company_logos/uber.svg" alt="uber" />
-          <img src="/Assets/company_logos/slack.svg" alt="slack" />
-          <img src="/Assets/company_logos/airbnb.svg" alt="airbnb" />
-          <img src="/Assets/company_logos/spotify.svg" alt="spotify" />
+          <img class="wbi-1" src="/Assets/company_logos/weebly.svg" alt="weebly" />
+          <img class="wbi-2" src="/Assets/company_logos/uber.svg" alt="uber" />
+          <img class="wbi-3" src="/Assets/company_logos/slack.svg" alt="slack" />
+          <img class="wbi-4" src="/Assets/company_logos/airbnb.svg" alt="airbnb" />
+          <img class="wbi-5" src="/Assets/company_logos/spotify.svg" alt="spotify" />
         </div>
         <div class="best-line"></div>
       </div>
@@ -358,7 +371,7 @@
           <h2>Fill out the form and we'll be in touch as soon as possible.</h2>
         </div>
 
-        <div class="form">
+        <form action="" method="post" target="_blank" class="form">
           <div class="inputs-container">
             <div>
               <label for="firstName"></label>
@@ -406,14 +419,14 @@
 
             <div>
               <label for="budget"></label>
-              <select class="form-inputs">
+              <select class="form-inputs five">
                 <option selected disabled value="Budget">Budget</option>
               </select>
             </div>
 
             <div>
               <label for="budget"></label>
-              <select class="form-inputs">
+              <select class="form-inputs six">
                 <option selected disabled value="country">Country</option>
               </select>
             </div>
@@ -444,7 +457,7 @@
             value="Get Started"
             class="btn get-started-btn"
           />
-        </div>
+        </form>
       </div>
     </div>
 
@@ -544,7 +557,7 @@
         </div>
 
         <div class="copyright-closing">
-          <p>&#169 Front. 202 Htmlstream. All rights reserved.</p>
+          <p>&#169 Front. 2022 Htmlstream. All rights reserved.</p>
           <p>When you visit or interact with our sites, services or tools,
             we or our authorized service providers may use cookies for storing
             information to <br> help provide you with a better, faster and safer
@@ -560,5 +573,16 @@
       <i class="fa-solid fa-chevron-up"></i>
     </a>
 
+
+    <script>
+      const navButton = document.querySelector('button[aria-expanded]');
+
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+
+      navButton.addEventListener('click' , toggleNav);
+    </script>
   </body>
 </html>

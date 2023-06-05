@@ -1,1 +1,275 @@
+/* TABLETS */
 
+/* NAVBAR */
+
+@media screen and (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    position: absolute;
+    right: 0.5rem;
+    top: var(--size-50);
+    background-image: linear-gradient(45deg, transparent, #82b8f5);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    text-align: right;
+    box-shadow: 0px 0px 20px #82b8f5;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+  }
+
+  /* EMPOWERING TEAMS */
+
+  .empowering {
+    width: 74%;
+    margin-left: 9rem;
+  }
+
+  .icon-1 {
+    top: -3%;
+    left: 31%;
+  }
+
+  .icon-2 {
+    top: 11%;
+    left: 53%;
+    padding: var(--size-20);
+    width: 5rem;
+  }
+
+  .icon-4 {
+    left: 30%;
+    width: 5rem;
+  }
+
+  .icon-5 {
+    left: 67%;
+    width: 5rem;
+  }
+
+  .icon-6,
+  .icon-7 {
+    display: none;
+  }
+
+  /* KEY BENEFITS */
+
+  .key-benefits-container {
+    width: 97%;
+    margin-top: 0;
+  }
+
+  .key-benefits-card {
+    margin-bottom: 3rem;
+  }
+
+  /* PERSPECTIVES */
+  .perspectives-container {
+    width: 80%;
+    padding-left: 3rem;
+  }
+
+  .perspectives-para {
+    width: 100%;
+    margin: 3rem 0rem 0rem 1rem;
+  }
+
+  .banner-one-container > img {
+    margin-top: 2rem;
+  }
+
+  /* WHY FRONT */
+
+  .dots-and-tittles {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+  }
+
+  .dot-line-container {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  .line {
+    width: 0.15rem;
+    height: 0.75rem;
+    margin: 0.5rem 0rem 0.5rem 1.45rem;
+  }
+
+  .dot-tittles {
+    display: block;
+  }
+
+  .d-1,
+  .d-2,
+  .d-3 {
+    margin-bottom: 3.3rem;
+  }
+
+  .banner-two {
+    margin-bottom: 1.4rem;
+  }
+
+  /* KRAY & HUBSPOT */
+
+  .kray-container {
+    margin-top: 0;
+  }
+
+  .dot-overlay-img {
+    width: 100%;
+  }
+
+  .dot-img {
+    position: absolute;
+    width: 14rem;
+    margin-top: 17.5rem;
+    margin-left: 2rem;
+  }
+
+  .kray-photo {
+    position: relative;
+    top: -3%;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .hubspot-photo {
+    font-size: var(--size-20);
+  }
+
+  .hubspot > p {
+    font-size: 2rem;
+  }
+
+  /* WORLD'S BEST */
+
+  .worlds-best-header {
+    font-size: var(--size-18);
+  }
+
+  .wbi-2,
+  .wbi-3 {
+    display: none;
+  }
+
+  /* PRICING */
+
+  .main-card {
+    width: 86%;
+    box-shadow: 1px 2px 0px -1px #f0f0f0, 0px 2px 0px 3px #f7f7f7;
+  }
+
+  .small-cards {
+    width: 85%;
+    margin-top: 2%;
+  }
+
+  /* HIRE US */
+
+  .hire-us-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .hire-us {
+    margin-top: 0;
+    width: 100%;
+    margin-left: 4%;
+  }
+
+  .hire-us :nth-child(2) {
+    font-size: var(--size-20);
+  }
+
+  .card-line-two {
+    width: 54%;
+  }
+
+  .word-shadow {
+    font-size: 1.45rem;
+    text-shadow: none;
+  }
+
+  .word-shadow :nth-child(1) {
+    display: none;
+  }
+
+  .hire-us :nth-child(5) {
+    font-size: var(--size-18);
+  }
+
+  .hire-us :nth-child(6) {
+    font-size: var(--size-16);
+  }
+
+  /* HIRE US FORM */
+
+  .form-container {
+    box-shadow: none;
+    max-width: 90%;
+    margin-left: 4%;
+  }
+
+  .form-header > h2 {
+    font-size: 1.3rem;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    width: 18rem;
+    border: 0.15rem solid #efeff1;
+    font-size: 1.2rem;
+    padding: 18px 0px 18px 12px;
+    font-weight: 500;
+  }
+
+  .form > textarea,
+  .get-started-btn {
+    width: 97%;
+  }
+
+  .footer-container {
+    width: 65%;
+  }
+
+  .footer-section-one,
+  .footer-section-two,
+  .footer-section-three,
+  .footer-section-four,
+  .footer-section-five {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section-two,
+  .footer-section-three,
+  .footer-section-four,
+  .footer-section-five {
+    width: 34%;
+  }
+
+  .copyright-closing {
+    text-align: left;
+  }
+
+  .copyright-closing > p > br {
+    display: none;
+  }
+}

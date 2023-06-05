@@ -159,6 +159,8 @@ img {
 
 @media (min-width: 1200px) {
   .nav-container,
+  .bottom-nav,
+  .top-nav,
   .empowering-container,
   .key-benefits-container,
   .perspectives-container,
