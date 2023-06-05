@@ -273,3 +273,78 @@
     display: none;
   }
 }
+
+/* CELL-MOBILE */
+
+@media screen and (max-width: 390px) {
+  /* EMPOWERING-TEAMS */
+
+  .empowering {
+    margin-left: 13%;
+  }
+
+  .empowering > {
+    width: 100%;
+  }
+
+  .empowering-logos {
+    width: 91%;
+  }
+
+  /* KEY-BENEFITS */
+
+  .key-benefits-opening > p {
+    width: 95%;
+  }
+
+  .key-benefits-card {
+    max-width: 100%;
+    margin-bottom: 0.75rem;
+    box-shadow: 1px 6px 0px -1px #f0f0f0, 0px -2px 0px 2px #f7f7f7;
+  }
+
+  /* PERSPECTIVES */
+
+  .perspectives-container {
+    width: 90%;
+  }
+
+  .perspectives-para > h2 {
+    font-size: 1.5rem;
+  }
+
+  /* WHY FRONT */
+
+  .why-front-opening {
+    margin: 0 1.1rem 0 1.1rem;
+  }
+
+  .why-front-opening > p > br {
+    display: none;
+  }
+
+  .dots-and-tittles {
+    margin-left: 1rem;
+  }
+
+  .d-1,
+  .d-2,
+  .d-3 {
+    margin-bottom: 3rem;
+  }
+
+  .d-3 {
+    width: 100%;
+  }
+
+  .banner-two {
+    margin: 0 0 0 1.3rem;
+    width: 90%;
+    height: 11rem;
+  }
+
+  .play-button-container {
+    top: 32%;
+    left: 43%;
+  }
+}
