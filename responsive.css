@@ -187,7 +187,7 @@
   .hire-us {
     margin-top: 0;
     width: 100%;
-    margin-left: 3%;
+    margin-left: 4%;
   }
 
   .hire-us :nth-child(2) {
@@ -216,4 +216,33 @@
   }
 
   /* HIRE US FORM */
+
+  .form-container {
+    box-shadow: none;
+    max-width: 90%;
+    margin-left: 4%;
+  }
+
+  .form-header > h2 {
+    font-size: 1.3rem;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    width: 18rem;
+    border: 0.15rem solid #efeff1;
+    font-size: 1.2rem;
+    padding: 18px 0px 18px 12px;
+    font-weight: 500;
+  }
+
+  .form > textarea, .get-started-btn {
+    width: 97%;
+  }
+  
+  }
 }
