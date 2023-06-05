@@ -240,9 +240,36 @@
     font-weight: 500;
   }
 
-  .form > textarea, .get-started-btn {
+  .form > textarea,
+  .get-started-btn {
     width: 97%;
   }
-  
+
+  .footer-container {
+    width: 65%;
+  }
+
+  .footer-section-one,
+  .footer-section-two,
+  .footer-section-three,
+  .footer-section-four,
+  .footer-section-five {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section-two,
+  .footer-section-three,
+  .footer-section-four,
+  .footer-section-five {
+    width: 34%;
+  }
+
+  .copyright-closing {
+    text-align: left;
+  }
+
+  .copyright-closing > p > br {
+    display: none;
   }
 }
