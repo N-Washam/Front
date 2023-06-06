@@ -377,4 +377,23 @@
     margin-top: 0;
     font-size: 1.3rem;
   }
+
+  /* WORLD'S BEST */
+
+  .wbi-1,
+  .wbi-5 {
+    display: none;
+  }
+
+  .wbi-2,
+  .wbi-3,
+  .wbi-4 {
+    display: block;
+    width: 6rem;
+  }
+
+  .best-line {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
