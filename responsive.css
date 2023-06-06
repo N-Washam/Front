@@ -438,4 +438,15 @@
   .get-started-btn {
     width: 100%;
   }
+
+  /* FOOTER */
+
+  .sub-directory {
+    justify-content: center;
+    margin-right: 25%;
+  }
+
+  .copyright-closing {
+    margin-left: -20%;
+  }
 }
