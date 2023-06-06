@@ -396,4 +396,46 @@
     width: 90%;
     margin-left: 5%;
   }
+
+  /* PRICING */
+
+  .pricing-cards {
+    margin-left: 3%;
+  }
+
+  .main-card {
+    width: 96%;
+  }
+
+  .small-cards {
+    width: 100%;
+    margin-right: 29%;
+  }
+
+  .small-card > p {
+    width: 110%;
+  }
+
+  .small-card > p > br {
+    display: none;
+  }
+
+  .small-cards :nth-child(3) {
+    padding-right: 10%;
+  }
+
+  /* HIRE US */
+
+  .form > textarea {
+    margin: 2% -2.5% 0 -2.5%;
+    width: 105%;
+  }
+
+  .checkbox {
+    margin-left: -4%;
+  }
+
+  .get-started-btn {
+    width: 100%;
+  }
 }
