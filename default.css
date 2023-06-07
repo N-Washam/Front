@@ -145,11 +145,6 @@ img {
   margin: 1rem 0 1.5rem 0;
 }
 
-/* @media (min-width: 768px) {
-    max-width: 720px;
-  }
-} */
-
 @media (min-width: 992px) {
   .why-front-container,
   .footer-container {
@@ -166,11 +161,5 @@ img {
   .perspectives-container,
   .pricing-container {
     max-width: 1140px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .hire-us-container {
-    max-width: 1360px;
   }
 }
